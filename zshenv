@@ -1,5 +1,5 @@
-source /Users/bryan/.zshkit/env
+source /Users/berinle/.zshkit/env
 
 # rvm-install added:
-if [[ -s /Users/bryan/.rvm/scripts/rvm ]] ; then source /Users/bryan/.rvm/scripts/rvm ; fi
+if [[ -s /Users/berinle/.rvm/scripts/rvm ]] ; then source /Users/berinle/.rvm/scripts/rvm ; fi
 

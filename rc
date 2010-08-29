@@ -21,7 +21,7 @@ have() {
 
 autoload -Uz bashcompinit
 bashcompinit
-bash_source /usr/local/etc/bash_completion.d/ack-grep
+#bash_source /usr/local/etc/bash_completion.d/ack-grep
 
 autoload -Uz colors
 colors
