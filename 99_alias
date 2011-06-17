@@ -11,3 +11,32 @@ alias xmlput="curl -X PUT -H 'Accept: application/xml'"
 alias xmldelete="curl -X DELETE -H 'Accept: application/xml'"
 alias gup="git fetch origin master && git rebase origin/master"
 alias em='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n'
+
+#mysql
+alias mysqlstart='sudo /opt/local/lib/mysql5/bin/mysqld_safe &'
+alias mysqlstop='/opt/local/lib/mysql5/bin/mysqladmin5 -u root -p shutdown'
+alias aamc='cd /Users/berinle/projects/gitrepo/aamc'
+
+#git aliases
+alias gb='git branch'
+alias gba='git branch -av'
+alias gc='git commit -v'
+alias gd='git diff | mate'
+alias gl='git pull'
+alias gp='git push'
+alias gst='git status'
+alias git='hub'
+alias tower='gittower'
+
+#grails
+alias grails='$GRAILS_HOME/bin/grails'
+
+#utility
+alias p='pushd'
+alias o='popd'
+
+#http://stackoverflow.com/questions/1331385/how-can-i-see-incoming-commits-in-git
+alias gin='git fetch && git flog ..origin/master'
+alias gout='git fetch && git flog origin/master..'
+alias gsin='git svn fetch && git flog ..remotes/git-svn'
+alias gsout='git svn fetch && git flog remotes/git-svn..'
